@@ -1,0 +1,8 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/yaml": "^4.1",
+        "monolog/monolog": "^1.23",
+        "react/http": "^0.8.3"
+    }
+}

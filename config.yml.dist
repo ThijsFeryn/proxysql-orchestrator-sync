@@ -1,0 +1,15 @@
+proxy-sync:
+  binding: 8080
+orchestrator:
+  servers:
+    - url: http://orchestrator:3000/api/
+      username: orchestrator-username
+      password: orchestrator-password
+  pollInterval: 10
+  clusterAlias: yourCluster
+proxysql:
+   servers:
+      - hostname: proxysql-hostname
+        username: proxysql-username
+        password: proxysql-password
+        port: 6032

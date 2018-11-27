@@ -1,0 +1,10 @@
+/log
+.DS_Store
+*~
+*.swp
+/.vagrant
+/.idea
+/vendor
+/node_modules
+/composer.phar
+phpunit.phar
